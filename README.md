@@ -87,23 +87,6 @@ Create notes directly from the terminal:
 2. Enter note title and content
 3. Note will be encrypted and saved to USB automatically
 
-## 🔍 How It Works
-
-[ArchAngel] employs a multi-layered approach to security:
-
-1. **Triple-Layer Encryption**: Files are encrypted three separate times with three different passphrases
-2. **RAM-Only Processing**: Decrypted files exist only in RAM, never touching persistent storage
-3. **Session Monitoring**: Continuous monitoring for USB removal or timeout
-4. **Secure Wiping**: Uses secure deletion methods to ensure data cannot be recovered
-
-## 🛡️ Technical Specifications
-
-- **Encryption**: AES-256 (Advanced Encryption Standard with 256-bit key)
-- **Encryption Tool**: GnuPG (GPG) using symmetric encryption
-- **Integrity Check**: SHA-256 checksums for file verification
-- **RAM Storage**: Uses platform-specific RAM disk implementations (tmpfs on Linux, RAM disk on macOS)
-- **Secure Deletion**: Uses platform-specific secure wiping (shred on Linux, srm on macOS)
-
 ## 📚 FAQ
 
 **Q: Is my data safe if my USB is stolen?**
