@@ -1,8 +1,4 @@
-# 🔐 Archangel: Advanced USB Encryption Session Manager
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/username/archangel/master/logo.png" alt="Archangel Logo" width="200"/>
-</p>
+# 🔐 [ArchAngel] Advanced USB Session Manager
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
