@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Version-2.0-orange" alt="Version">
 </p>
 
-**Archangel** provides military-grade encryption for your sensitive files on USB drives, using a secure RAM-based session model that ensures your data is only decrypted when needed, and securely wiped when finished.
+**[ArchAngel]** provides military-grade encryption for your sensitive files on USB drives, using a secure RAM-based session model that ensures your data is only decrypted when needed, and securely wiped when finished.
 
 ## ✨ Features
 
@@ -32,11 +32,7 @@
 ## 🚀 Installation
 
 1. Copy the `archangel.sh` script to your USB drive
-2. Make it executable:
-   ```bash
-   chmod +x archangel.sh
-   ```
-3. Run it when you need to access your encrypted files:
+2. Run it when you need to access your encrypted files:
    ```bash
    ./archangel.sh
    ```
@@ -93,7 +89,7 @@ Create notes directly from the terminal:
 
 ## 🔍 How It Works
 
-Archangel employs a multi-layered approach to security:
+[ArchAngel] employs a multi-layered approach to security:
 
 1. **Triple-Layer Encryption**: Files are encrypted three separate times with three different passphrases
 2. **RAM-Only Processing**: Decrypted files exist only in RAM, never touching persistent storage
@@ -111,25 +107,19 @@ Archangel employs a multi-layered approach to security:
 ## 📚 FAQ
 
 **Q: Is my data safe if my USB is stolen?**
+
 A: Yes, all files are triple-encrypted with AES-256 and require three different passphrases to decrypt.
 
 **Q: What happens if I disconnect my USB while the session is active?**
-A: Archangel will automatically detect the removal and securely wipe all decrypted files from RAM.
+
+A: [ArchAngel] will automatically detect the removal and securely wipe all decrypted files from RAM.
 
 **Q: How secure is the clipboard encryption?**
+
 A: Clipboard content is encrypted with the same triple-layer AES-256 encryption as files.
 
-**Q: Can I use Archangel on non-USB storage?**
-A: Yes, Archangel works on any storage medium, but is specifically designed for USB drives.
+**Q: Can I use [ArchAngel] on non-USB storage?**
 
-## 📜 License
+A: Yes, [Archangel] works on any storage medium, but is specifically designed for USB drives.
 
 MIT License
-
-Copyright (c) 2023
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
