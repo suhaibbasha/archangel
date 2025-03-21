@@ -121,5 +121,3 @@ A: Clipboard content is encrypted with the same triple-layer AES-256 encryption 
 **Q: Can I use [ArchAngel] on non-USB storage?**
 
 A: Yes, [Archangel] works on any storage medium, but is specifically designed for USB drives.
-
-MIT License
